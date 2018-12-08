@@ -1,0 +1,64 @@
+/* GOOGLE FONTS
+font-family: 'Bungee Shade', cursive;
+font-family: 'Muli', sans-serif;
+font-family: 'Sail', cursive;
+font-family: 'Roboto', sans-serif; */
+
+/* HEADER */
+#card-title {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 70px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.card-text {
+    font-family: 'Muli', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* INSTRUCTIONS JUMBOTRON */
+#instructionsHeader {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.jumbotron {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    background: linear-gradient(lavender, pink, skyblue);
+}
+
+.instructions {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CRYSTAL CONTAINER */
+
+.container {
+    margin-top: 2%;
+}
+
+.crystals {
+    text-align: center;
+}
+
+.crystal {
+    height: 75px;
+}
+
